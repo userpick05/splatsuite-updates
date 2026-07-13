@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
-  "notes": "Splat Suite 1.6.0 - in-app updates + private distribution.",
+  "version": "1.6.1",
+  "notes": "Splat Suite 1.6.1 - works with the SplatForge installer (true hand-off).",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
