@@ -1,5 +1,5 @@
 {
-  "version": "1.6.1",
-  "notes": "Splat Suite 1.6.1 - works with the SplatForge installer (true hand-off).",
+  "version": "1.6.2",
+  "notes": "Splat Suite 1.6.2 - self-healing GPU setup (auto-detects the right CUDA build and verifies it).",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
