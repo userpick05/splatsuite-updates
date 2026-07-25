@@ -1,5 +1,5 @@
 {
-  "version": "1.6.3",
-  "notes": "Splat Suite 1.6.3 - RealityScan export now lands images in the right folder (no more stale 'Customize image path'). New Export-tab settings override; masks + undistortion preserved.",
+  "version": "1.7.0",
+  "notes": "Splat Suite 1.7.0 - GLOMAP mapper option: much faster alignment (global SfM), with automatic fallback to COLMAP. Includes the self-healing CUDA setup (1.6.2) and the RealityScan export image-path fix (1.6.3).",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
