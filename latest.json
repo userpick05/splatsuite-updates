@@ -1,5 +1,5 @@
 {
-  "version": "1.7.0",
-  "notes": "Splat Suite 1.7.0 - GLOMAP mapper option: much faster alignment (global SfM), with automatic fallback to COLMAP. Includes the self-healing CUDA setup (1.6.2) and the RealityScan export image-path fix (1.6.3).",
+  "version": "1.12.1",
+  "notes": "Splat Suite 1.12.1 - 'What did you shoot?' capture profile, automatic focal prior (GLOMAP safe on video), revisit closure, walk check with opt-in quarantine for mis-registered frames, portable datasets. Includes every release since 1.7.0 - see CHANGELOG.md.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
