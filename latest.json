@@ -1,5 +1,5 @@
 {
-  "version": "1.12.1",
-  "notes": "Splat Suite 1.12.1 - 'What did you shoot?' capture profile, automatic focal prior (GLOMAP safe on video), revisit closure, walk check with opt-in quarantine for mis-registered frames, portable datasets. Includes every release since 1.7.0 - see CHANGELOG.md.",
+  "version": "1.12.2",
+  "notes": "Splat Suite 1.12.2 - outputs always go to the open project, and the dataset is assembled automatically after a good align (switch on the Export tab). Includes 1.12.1: capture profile, automatic focal prior, walk check with opt-in quarantine.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
