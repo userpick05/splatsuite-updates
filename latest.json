@@ -1,5 +1,5 @@
 {
-  "version": "1.15.1",
-  "notes": "Splat Suite 1.15.1 - two solver options, both OFF until measured: loop detection by vocabulary tree inside sequential matching (COLMAP 4.x downloads the ALIKED tree itself; the log confirms it engaged from COLMAP's own output) and rig constraints for views rendered out of a 360 frame (one pose per frame, fixed rotations, one camera per direction, seam masks for the solve only; the Suite reads the rig tables back and refuses a rig that did not take). Nothing changes in a default solve. Includes 1.15.0: Handheld / Drone / Photos plus a detected 360 tick, Views 4 or 8, flat video passed through as frames.",
+  "version": "1.15.2",
+  "notes": "Splat Suite 1.15.2 - Caspar GPU bundle adjustment, probed from the installed COLMAP at run time (official Windows builds refuse it; a build compiled with it is accepted). Auto is the default on a measured full solve: 874 images, Ceres 20.0 min vs Caspar 8.6 min, identical registration, reprojection marginally better. The COLMAP build recipe ships under tools/colmap_build so the Suite owns its own COLMAP. Includes 1.15.1 (loop detection and rig constraints, both opt-in) and 1.15.0 (Handheld / Drone / Photos + detected 360 tick, Views 4 or 8).",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
