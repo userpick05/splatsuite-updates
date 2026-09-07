@@ -1,5 +1,5 @@
 {
-  "version": "1.12.2",
-  "notes": "Splat Suite 1.12.2 - outputs always go to the open project, and the dataset is assembled automatically after a good align (switch on the Export tab). Includes 1.12.1: capture profile, automatic focal prior, walk check with opt-in quarantine.",
+  "version": "1.14.0",
+  "notes": "Splat Suite 1.14.0 - several captures in one project, solved together into one model; training now uses SplatForge's own recipes (measured 12.34 dB -> 20.05 on the same capture); optional training on a LAN render farm; handheld captures sample at 3 fps. Needs SplatForge 0.27.0 for recipes and the farm.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
