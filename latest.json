@@ -1,5 +1,5 @@
 {
-  "version": "1.14.0",
-  "notes": "Splat Suite 1.14.0 - several captures in one project, solved together into one model; training now uses SplatForge's own recipes (measured 12.34 dB -> 20.05 on the same capture); optional training on a LAN render farm; handheld captures sample at 3 fps. Needs SplatForge 0.27.0 for recipes and the farm.",
+  "version": "1.14.1",
+  "notes": "Splat Suite 1.14.1 - Cancel now actually stops COLMAP: the stop flag was only read between lines of output, and the mapper's bundle adjustment is silent for tens of minutes. It also ends the whole process tree (a COLMAP.bat wrapper hid the real exe) and says what survives - the database keeps its features and matches, so a later alignment resumes at mapping. Includes 1.14.0: multi-source solves, trainer recipes, render farm, faster sampling for handheld captures.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
