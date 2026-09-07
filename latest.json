@@ -1,5 +1,5 @@
 {
-  "version": "1.14.1",
-  "notes": "Splat Suite 1.14.1 - Cancel now actually stops COLMAP: the stop flag was only read between lines of output, and the mapper's bundle adjustment is silent for tens of minutes. It also ends the whole process tree (a COLMAP.bat wrapper hid the real exe) and says what survives - the database keeps its features and matches, so a later alignment resumes at mapping. Includes 1.14.0: multi-source solves, trainer recipes, render farm, faster sampling for handheld captures.",
+  "version": "1.15.0",
+  "notes": "Splat Suite 1.15.0 - 'How was it shot?' is now Handheld / Drone / Photos, with a '360 camera' tick detected from the frame (a 360 drone is finally expressible; a 360 walk keeps its loop closure). Views around 4 or 8 with four new diagonal directions and a live line showing shared degrees and corner detail; Top off by default. Flat phone video passes through as frames instead of being sphere-projected. Old '360 video' projects and configs migrate; the saved capture type is read back on restart; a three-round Tribunal record ships in docs/research.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
