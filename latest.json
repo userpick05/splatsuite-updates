@@ -1,5 +1,5 @@
 {
-  "version": "1.15.0",
-  "notes": "Splat Suite 1.15.0 - 'How was it shot?' is now Handheld / Drone / Photos, with a '360 camera' tick detected from the frame (a 360 drone is finally expressible; a 360 walk keeps its loop closure). Views around 4 or 8 with four new diagonal directions and a live line showing shared degrees and corner detail; Top off by default. Flat phone video passes through as frames instead of being sphere-projected. Old '360 video' projects and configs migrate; the saved capture type is read back on restart; a three-round Tribunal record ships in docs/research.",
+  "version": "1.15.1",
+  "notes": "Splat Suite 1.15.1 - two solver options, both OFF until measured: loop detection by vocabulary tree inside sequential matching (COLMAP 4.x downloads the ALIKED tree itself; the log confirms it engaged from COLMAP's own output) and rig constraints for views rendered out of a 360 frame (one pose per frame, fixed rotations, one camera per direction, seam masks for the solve only; the Suite reads the rig tables back and refuses a rig that did not take). Nothing changes in a default solve. Includes 1.15.0: Handheld / Drone / Photos plus a detected 360 tick, Views 4 or 8, flat video passed through as frames.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
