@@ -1,5 +1,5 @@
 {
-  "version": "1.21.4",
-  "notes": "Splat Suite 1.21.4 - measured lenses, and several cameras in one project. The Sony A7R VI with the FE 16-35mm F2.8 GM II at 16 mm now has a measured lens (0.76 px on photos the fit never saw), and the DJI Avata 360's lens is remeasured: import a folder of their photos and the app offers to flatten them through the lens and solve them as a plain pinhole. In a trained comparison the measured A7 lens came out slightly ahead of the solver's own. Every photo must name the lens and focal length the lens was measured at, and a Sony's Distortion Comp must be Off - a photo the camera already corrected would be corrected twice; when the lens isn't offered, the app says which photo and why. A shoot with several cameras in one project is solved one camera per camera, on COLMAP and RealityScan. Also: 66 MP photos import with far less memory, a lens-free camera is written to datasets as a plain pinhole, and a photo with a 0/0 EXIF value no longer stops an import. Install on every PC.",
+  "version": "1.21.5",
+  "notes": "Splat Suite 1.21.5 - RealityScan exports now use your original photos by default (camera quality), and stop with a clear reason instead of falling back to RealityScan's re-saved copies. Safer farm jobs across mixed versions. Install on every PC.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
