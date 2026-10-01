@@ -1,5 +1,5 @@
 {
-  "version": "1.21.5",
-  "notes": "Splat Suite 1.21.5 - RealityScan exports now use your original photos by default (camera quality), and stop with a clear reason instead of falling back to RealityScan's re-saved copies. Safer farm jobs across mixed versions. Install on every PC.",
+  "version": "1.21.6",
+  "notes": "Splat Suite 1.21.6 - a new trainer choice in Result › Train, training runs kept inside the project folder, and a live view you can open on your phone. Install on every PC; the new trainer needs the matching SplatForge update (until then, pick Trainer › SplatForge).",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
