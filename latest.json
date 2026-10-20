@@ -1,5 +1,5 @@
 {
-  "version": "1.21.6",
-  "notes": "Splat Suite 1.21.6 - a new trainer choice in Result › Train, training runs kept inside the project folder, and a live view you can open on your phone. Install on every PC; the new trainer needs the matching SplatForge update (until then, pick Trainer › SplatForge).",
+  "version": "1.22.3",
+  "notes": "Splat Suite 1.22.3 - import straight from camera cards with a frame trim, 360 single-lens photos cut into flat views, farm PCs can align photo sets, training recipes, and wide drone lenses no longer fail the dataset export. Install on every PC; a farm PC needs this version to take photo jobs.",
   "url": "https://github.com/userpick05/splatsuite/releases/latest"
 }
